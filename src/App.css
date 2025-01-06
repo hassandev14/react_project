@@ -1,0 +1,29 @@
+.app{
+  text-align: left;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+button img{
+  max-width: 40px;
+}
+
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+.nav-links {
+  display: flex; /* Align items in a row */
+  gap: 20px; /* Add space between the links */
+  padding: 0; /* Remove default padding */
+  list-style-type: none; /* Remove default list styling */
+}
+.remove_underline{
+  text-decoration: none;
+  color: #000;
+}
