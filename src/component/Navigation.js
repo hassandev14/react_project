@@ -27,6 +27,12 @@ function Navigation() {
               <Nav.Link as={Link} to="/add_member" className="me-3" style={{ color: "white" }}>
                 Add Member
               </Nav.Link>
+              <Nav.Link as={Link} to="/signup" className="me-3" style={{ color: "white" }}>
+                SignUp
+              </Nav.Link>
+              <Nav.Link as={Link} to="/login" className="me-3" style={{ color: "white" }}>
+                Login
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
